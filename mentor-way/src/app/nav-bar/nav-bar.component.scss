@@ -4,6 +4,11 @@
   align-items: center;
   height: 70px;
   background-color: #ffffff;
+  z-index: 1000;
+  position: fixed; /* Fija la navbar */
+  top: 0; /* La coloca en la parte superior */
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
   .logo {
     display: flex;
