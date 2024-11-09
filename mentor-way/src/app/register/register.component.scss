@@ -1,6 +1,6 @@
 .content {
-  height: 100vh;
-  margin: 0;
+
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,5 +74,26 @@ button {
 
   &:active {
     background-color: darken(#F03245, 15%); /* Color más oscuro al hacer clic */
+  }
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    width: 100%;
+    max-width: none;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container {
+    padding: 5px;
+    margin: 5px;
+    gap: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 }
