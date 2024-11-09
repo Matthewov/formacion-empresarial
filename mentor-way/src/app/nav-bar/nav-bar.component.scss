@@ -3,8 +3,16 @@
   justify-content: center;
   align-items: center;
   height: 70px;
-  background-color: #e2e2e2;
-  color: blackx;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 50px;
+      background-color: white;
+    }
+
+  }
 }
